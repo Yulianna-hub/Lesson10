@@ -33,6 +33,8 @@ orderChapter[11].after(orderChapter[10]);
 orderChapter[12].after(orderChapter[11]);
 orderChapter[10].after(orderChapter[9]);
 orderChapter[10].before(orderChapter[11]);
+orderChapter[14].before(orderChapter[15]);
+
 // и пятой книге
 orderChapter[39].after(orderChapter[38]);
 orderChapter[40].after(orderChapter[39]);
